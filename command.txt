@@ -1,0 +1,31 @@
+   38  echo "Hello gitbash"
+  110  git init
+  113  git status
+  114  git add Helloworld.java 
+  115  git status
+  116  git commit -m "[Nasiyah] Add : adding demo file"
+  117  git config --global user.email "nasiyahanjum@gmail.com"
+  118   git config --global user.name "Nasiyah Anjum"
+  119  git commit -m "[Nasiyah] Add : adding demo file"
+  120  git log --oneline
+  121  git branch -M main
+  123  it remote add origin https://github.com/NasiyahAnjum/demo.git
+  135  git init
+  136  git status
+  137  git add Helloworld.java
+  138  git status
+  139  git commit -m "[Nasiyah] Add : adding demo file"
+  140  git log -oneline
+  141  git log --oneline
+  142  git branch -M main
+  143  git remote add origin https://github.com/NasiyahAnjum/demo.git
+  144  git push
+  145      git push --set-upstream origin main
+  147  git status
+  148  git add .
+  149  git status
+  150  git commit -m "[Nasiyah] Add : adding Update helloworld print statement"
+  151  git push origin main
+  152      git push --set-upstream origin main
+  154  history | grep git
+  155  history | grep git > command.txt
